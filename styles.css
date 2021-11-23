@@ -1,0 +1,110 @@
+/*Navbar*/
+.navbar {
+  padding: 0 2rem .5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: 800;
+  padding-left: 3%;
+}
+
+.navbar-text {
+
+    padding-left: 4%;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.profile-pic {
+  display: inline;
+  border-radius: 10%;
+  padding: 10% 20% 0;
+}
+
+/*Intro*/
+.intro {
+    height: 300px;
+
+}
+
+.col-lg-6 {
+    padding: 15% 0% 3%;
+    padding-left: 12%;
+    font-family: sans-serif;
+}
+
+.colored-section1 {
+    background-color: #035397;
+}
+
+/*Experience*/
+.myexperience {
+  padding-bottom: 2%;
+}
+
+.experience {
+    height: 300px;
+}
+
+.colored-section {
+    background-color: #035397 ;
+    height: 300px;
+    padding-top: 3%;
+    line-height: 1.5;
+}
+
+.card {
+  color: #5089C6;
+}
+
+.card-header {
+  color: #5089C6;
+}
+
+.card-color {
+  color: #5089C6;
+}
+
+.card-body {
+  color: #5089C6;
+}
+
+/*Contact*/
+.contact-me {
+    padding: 8% 0 0;
+    height: 300px;
+}
+
+.colored-section2 {
+    background-color: #035397;
+    height: 230px;
+    padding: 0 0 5%;
+}
+
+.container-fluid {
+  padding: 0% 0% 0%;
+}
+
+.footer {
+    padding: 1% 0 0;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    color: lightgray;
+}
+
+@media (max-width 991.98px) {
+
+  #title {
+    text-align: center;
+  }
