@@ -7,12 +7,14 @@
   font-family: "Ubuntu";
   font-size: 3rem;
   font-weight: 800;
-  padding-left: 3%;
+  margin-left: 11%;
 }
 
 .navbar-text {
-
-    padding-left: 4%;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-right: 12%;
 }
 
 .nav-item {
@@ -23,11 +25,18 @@
   font-size: 1.2rem;
   font-weight: normal;
 }
-.profile-pic {
+/*.profile-pic {
   display: inline;
   border-radius: 10%;
   padding: 10% 20% 0;
+}*/
+.colored-section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
+
 
 /*Intro*/
 .intro {
@@ -37,7 +46,6 @@
 
 .col-lg-6 {
     padding: 15% 0% 3%;
-    padding-left: 12%;
     font-family: sans-serif;
 }
 
@@ -94,7 +102,7 @@
 }
 
 .footer {
-    padding: 1% 0 0;
+    padding: 10% 0 0;
 }
 
 body {
@@ -103,8 +111,17 @@ body {
     color: lightgray;
 }
 
-@media (max-width 991.98px) {
 
-  #title {
-    text-align: center;
-  }
+
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+
+@media
+  (max-device-width: 218px)
+  and (max-device-height: 281px) {
+}
