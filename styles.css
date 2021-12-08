@@ -1,6 +1,12 @@
+body {
+  display: flexbox;
+  text-align: center;
+  color: ;
+}
+
 /*Navbar*/
 .navbar {
-  padding: 0 2rem .5rem;
+  padding: 0 2rem 0.5rem;
 }
 
 .navbar-brand {
@@ -11,10 +17,10 @@
 }
 
 .navbar-text {
-    display: flex;
-    flex: 1 1 auto;
-    justify-content: flex-end;
-    margin-right: 12%;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  margin-right: 12%;
 }
 
 .nav-item {
@@ -25,32 +31,31 @@
   font-size: 1.2rem;
   font-weight: normal;
 }
-/*.profile-pic {
-  display: inline;
-  border-radius: 10%;
-  padding: 10% 20% 0;
-}*/
-.colored-section1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-}
 
+.colored-section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding-bottom: 10px;
+}
 
 /*Intro*/
 .intro {
-    height: 300px;
-
+  height: 300px;
+  color: whitesmoke;
 }
 
 .col-lg-6 {
-    padding: 15% 0% 3%;
-    font-family: sans-serif;
+  padding: 15% 0% 3%;
+  font-family: sans-serif;
+}
+
+.featurette {
 }
 
 .colored-section1 {
-    background-color: #035397;
+  background-color: #035397;
 }
 
 /*Experience*/
@@ -59,69 +64,68 @@
 }
 
 .experience {
-    height: 300px;
+  height: 300px;
 }
 
 .colored-section {
-    background-color: #035397 ;
-    height: 300px;
-    padding-top: 3%;
-    line-height: 1.5;
+  background-color: #035397;
+  height: 300px;
+  padding-top: 3%;
+  line-height: 1.5;
 }
 
 .card {
-  color: #5089C6;
+  color: #5089c6;
 }
 
 .card-header {
-  color: #5089C6;
+  color: #5089c6;
 }
 
 .card-color {
-  color: #5089C6;
+  color: #5089c6;
 }
 
 .card-body {
-  color: #5089C6;
+  color: #5089c6;
 }
 
 /*Contact*/
 .contact-me {
-    padding: 8% 0 0;
-    height: 300px;
+  padding: 8% 0 0;
+  height: 100px;
 }
 
 .colored-section2 {
-    background-color: #035397;
-    height: 230px;
-    padding: 0 0 5%;
+  background-color: #035397;
+  height: 80px;
+  padding: 0 0 5%;
+}
+
+colored-section3 {
+  background-color: #faedf0;
+  height: 50px;
+}
+
+.btn {
+  padding-bottom: 80px;
 }
 
 .container-fluid {
   padding: 0% 0% 0%;
 }
 
+.white-section {
+  background-color: #90aacb;
+  height: 60px;
+}
+
 .footer {
-    padding: 10% 0 0;
+  padding: 0 0 0;
 }
 
-body {
-    display: flex;
-    text-align: center;
-    color: lightgray;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
 }
 
-
-
-
-
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-}
-
-@media
-  (max-device-width: 218px)
-  and (max-device-height: 281px) {
+@media (max-device-width: 218px) and (max-device-height: 281px) {
 }
